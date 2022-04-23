@@ -1,0 +1,9 @@
+<div>
+    Input: <input type="text" [(ngModel)]="initialValue">
+</div>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="button" value="Submit" (click)="displayText()">
+<div>
+    <app-child [value]="enteredValue">  </app-child>
+</div>
